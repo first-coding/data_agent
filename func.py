@@ -34,7 +34,7 @@ class normal:
         parser.add_argument("--api_base", type=str,
                         default='', help="api_base that can util the llm in local api")
         parser.add_argument("--openai_engine", type=str,
-                        default="gpt-3.5-turbo", help="large language model's engine")
+                        default="qwen-turbo", help="large language model's engine")
         parser.add_argument("--debug_depth", type=int,
                         default=3, help="Debug depth for regenerate SQL by the llm")
         parser.add_argument("--temperature", type=float,
